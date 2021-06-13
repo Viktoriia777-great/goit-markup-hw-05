@@ -283,6 +283,7 @@
       /* Чем занимаемся */
 
   .box-img{
+       /* position: relative; */
      display: flex;
      justify-content: space-between;
  } 
@@ -291,6 +292,33 @@
        background: var(--feature-portfolio-work-bg); 
        padding-bottom: 94px; 
        padding-top: 94px; 
+ }
+ .work-box{
+     position: relative; 
+ }
+ .case{
+      top: 224px;
+      bottom: 0;
+      width: 370px;
+      height: 70px;
+      position: absolute;
+      display: flex;           
+      width: 370px;
+      height: 70px;
+      background: rgba(47, 48, 58, 0.8);
+      outline: 1px solid tomato;
+ }
+ .title-case{
+     font-weight: bold;
+     font-size: 14px;
+     line-height: 1.143;
+     text-align: center;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: var(--white-color);
+     margin: 27px auto;
+    
+     
  }
 
   /* Команда */
