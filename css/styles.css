@@ -84,10 +84,11 @@
       margin-right: 50px;
  }
  .active {
-     position: relative;
+     /* position: relative; */
      color: var(--color-button-logo);
 }
 .active::after{
+     
      display: flex;
      content: "";
      width: 48px;
@@ -221,7 +222,7 @@
       border: none;
  }  
  
- /* особенности  section class="feature"*/
+ /* особенности  section class="feature-group"*/
   
  .feature-group{
       padding-top: 94px;
@@ -293,11 +294,11 @@
        padding-bottom: 94px; 
        padding-top: 94px; 
  }
- .work-box{
+ .box-case{
      position: relative; 
  }
  .case{
-      top: 224px;
+      
       bottom: 0;
       width: 370px;
       height: 70px;
@@ -306,7 +307,7 @@
       width: 370px;
       height: 70px;
       background: rgba(47, 48, 58, 0.8);
-      outline: 1px solid tomato;
+    
  }
  .title-case{
      font-weight: bold;
@@ -316,9 +317,7 @@
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: var(--white-color);
-     margin: 27px auto;
-    
-     
+     margin: 27px auto;        
  }
 
   /* Команда */
