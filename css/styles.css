@@ -286,10 +286,8 @@
  }
  .case{
      position: absolute;
-      bottom: 0;
-      width: 370px;
-      height: 70px;      
-      display: flex;           
+     display: flex;   
+      bottom: 0;        
       width: 370px;
       height: 70px;
       background: rgba(47, 48, 58, 0.8);
