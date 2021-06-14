@@ -662,41 +662,7 @@
       fill: var(--main-color-headers)
       
  }
-  /* .tape{
-       position: fixed;
-       top: 8px;
-       right: 8px;
-       width: 30px;  
-       height: 30px;
-       border: 0.1px solid rgba(0, 0, 0, 0.1);
-       border-radius: 50%;               
- }  */
- /* [data-modal-close]{
-     position: absolute;
-     top: 8px;
-     right: 8px;
-     padding: 10px;
-     /* background-color: transparent; */
-     /* border: 0.1px solid rgba(0, 0, 0, 0.1);
-     border-radius: 50%;               
-     font-weight: bold;
-     cursor: pointer;
-     color: var(--main-color-headers);
- } */ 
-
-  /* [data-modal-close]:hover,
-  [data-modal-close]:focus{
-      border-color: var(--color-button-logo);
-      fill: var(--color-button-logo);
-      
- } */
-
- /* [data-modal-close]{
-     position: absolute;
-     top: 8px;
-     right: 8px;
-     padding: 10px;
- } */
+  
  .tape{
      position: absolute;
      right: 8px;
