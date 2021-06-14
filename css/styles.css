@@ -95,7 +95,7 @@
      border: 4px solid;
      background: var(--color-button-logo);
      border-radius: 2px;
-     margin-top: 32px;
+     margin-top: 28px;
      margin-bottom: -1px;
      
      
@@ -203,7 +203,7 @@
  }
  /* кнопка Заказать услугу */
 
- .button {      
+ .but{      
       margin: 0 auto;
       font-family: Roboto;
       font-style: normal;
@@ -220,6 +220,7 @@
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       border-radius: 4px;
       border: none;
+      cursor: pointer;
  }  
  
  /* особенности  section class="feature-group"*/
@@ -619,8 +620,8 @@
       width: 370px;
       height: 294px;
       background: rgba(33, 150, 243, 0.9);
-      /* transform: scale(1);
-      opacity: 0; */
+      overflow: auto;
+      
  }
  .card-text{      
       font-size: 18px;
@@ -628,5 +629,90 @@
       letter-spacing: 0.03em;
       margin: 63px 24px;
       color: var(--white-color);
+      
  }
  
+ .modal{
+      
+      position: fixed;
+       top: 0;
+      left: 0;       
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.2);
+ }
+ .modal.is-hidden{
+      opacity: 0;
+      pointer-events: none;
+ }
+ .modal-content{
+     position: absolute;      
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 528px;
+     height: 581px;
+    background: var(--white-color); 
+    padding: 9px;
+    /* box-shadow: ;       */
+ }
+  .modal-tape{
+      width: 11px;
+      height: 11px;
+      fill: var(--main-color-headers)
+      
+ }
+  /* .tape{
+       position: fixed;
+       top: 8px;
+       right: 8px;
+       width: 30px;  
+       height: 30px;
+       border: 0.1px solid rgba(0, 0, 0, 0.1);
+       border-radius: 50%;               
+ }  */
+ /* [data-modal-close]{
+     position: absolute;
+     top: 8px;
+     right: 8px;
+     padding: 10px;
+     /* background-color: transparent; */
+     /* border: 0.1px solid rgba(0, 0, 0, 0.1);
+     border-radius: 50%;               
+     font-weight: bold;
+     cursor: pointer;
+     color: var(--main-color-headers);
+ } */ 
+
+  /* [data-modal-close]:hover,
+  [data-modal-close]:focus{
+      border-color: var(--color-button-logo);
+      fill: var(--color-button-logo);
+      
+ } */
+
+ /* [data-modal-close]{
+     position: absolute;
+     top: 8px;
+     right: 8px;
+     padding: 10px;
+ } */
+ .tape{
+     position: absolute;
+     right: 8px;
+     top: 8px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     cursor: pointer;
+     /* fill: var(--main-color-headers); */
+ }
+ .tape:hover,
+ .tape:focus{
+      border-color: var(--color-button-logo);
+      fill: var(--color-button-logo);
+ }
