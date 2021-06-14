@@ -584,6 +584,7 @@
       line-height: 2.000;
       letter-spacing: 0.06em;
       color: var(--main-color-headers);
+      text-decoration: none;
  }
  .portfolio-text{
       font-weight: normal;
@@ -592,7 +593,11 @@
       letter-spacing: 0.03em;
       color: var(--main-text-color);
       margin-top: 4px;
- }   
+      text-decoration: none;
+ } 
+ .card-content{
+     text-decoration: none;  
+ }  
  .card-thumb{
       position: relative;
       overflow: hidden;      
