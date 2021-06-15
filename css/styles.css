@@ -294,8 +294,10 @@
      position: relative; 
  }
  .case{
-     position: absolute;
-     display: flex;   
+      position: absolute;
+      display: flex; 
+      justify-content: center;  
+      align-items: center;
       bottom: 0;        
       width: 370px;
       height: 70px;
@@ -310,7 +312,7 @@
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: var(--white-color);
-     margin: 27px auto;        
+     /* margin: 27px auto;         */
  }
 
   /* Команда */
