@@ -94,8 +94,28 @@
      background: var(--color-button-logo);
      border-radius: 2px;
      margin-top: 30px;
-     margin-bottom: -1px;   
+     bottom: -1px;  
+     margin-bottom: -1px;
+
  }
+ /* .active::after{
+     content: "";
+     position: absolute;
+     margin: -32px;
+     display: block;
+     width: 100%;
+     height: 4px;
+     border: 2px solid;
+  background-color: #2196F3;
+     border-radius: 2px;
+     opacity: 0;
+     transition: opacity 250ms;
+ } */
+ /* .active:hover::after{
+      opacity: 0;
+      display: block;
+
+ } */
  .sait-contacts{
       display: flex;
       justify-content: space-between;
