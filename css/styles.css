@@ -52,6 +52,7 @@
       line-height: 1.143;
       letter-spacing: 0.02em;
       color: var(--main-color-headers);
+      transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  /* свойства картинок */
@@ -91,11 +92,13 @@
      content: "";
      width: inherit;
      border-bottom: 4px solid;
-     background: var(--color-button-logo);
+     background-color: var(--color-button-logo);
      border-radius: 2px;
      margin-top: 30px;
      bottom: -1px;  
      margin-bottom: -1px;
+     /* opacity: 1; */
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
  }
  /* .active::after{
@@ -111,11 +114,10 @@
      opacity: 0;
      transition: opacity 250ms;
  } */
- /* .active:hover::after{
-      opacity: 0;
-      display: block;
+  .active:hover::after{
+       background-color: var(--color-button-logo);
 
- } */
+ } 
  .sait-contacts{
       display: flex;
       justify-content: space-between;
